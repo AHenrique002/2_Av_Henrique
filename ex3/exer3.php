@@ -28,7 +28,7 @@
     if ($media <5) {
         $sit = "Reprovado";
     }
-    elseif ($media <=6) {
+    elseif ($media >=5 && $media <=6) {
         $sit = "Recuperação";
     }
     else {
